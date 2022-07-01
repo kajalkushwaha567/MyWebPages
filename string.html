@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>String</title>
+        <style type="text/css">
+        img {
+            border-style:solid;
+            border-color:purple;
+        }
+        #a,#b,#c,#d,#e,#f,#g,#h,#i,#j,#k,#l,#m,#n,#o {
+            color:red;
+        }
+        #p,#q,#r,#s,#t,#u,#v,#w,#x,#y,#z,#aa,#bb,#cc,#dd {
+            color:green;
+        }
+        #fo,#ee,#ff,#gg,#hh {
+            color:brown;
+            font-weight: bold;
+        }
+        h2 {
+            color: blue;
+        }
+        </style>
+    </head>
+    <body>
+        <h1 style="text-align:center;color:red;background-color:skyblue;">STRING</h1><hr/><hr/>
+        <p> <span style="font-size:19px;" id="fo">String</span>  -> Sequence of character.</p>
+        <p> <span style="font-size:19px;" id="ee">String literal/constant</span> -> Sequence of character enclosed within " "(double quotes).</p>
+        <ul>
+            <li>" " &nbsp;-> &nbsp;Empty string(string having no character).</li>
+            <li>"3" &nbsp;-> &nbsp;String having one character.</li>
+            <li>"kajal" &nbsp;-> &nbsp;String having 4 character.</li>
+        </ul><hr/>
+        <p><span style="font-size:19px;" id="ff">String variable</span> -> In c there is no data type for storing value because string consist of character(s). So in c string is stored in array of character.</p>
+        <h2><u>String variable declaration</u></h2>
+        <p><span style="font-size:19px;" id="gg">syntax</span> :- datatype varname[size];</p>
+        <p><span style="font-size:20px;" id="hh">Example </span>:- char name[12]; -> Here name is a string variable that can store 11 character long string.</p>
+        <h3><u>How string is stored in RAM</u></h3>
+        <p>char name[12]="kajal"; -> Here string variable named name is created and intilized with value "kajal". <br/>It will be stored in memory as :-</p>
+        <img src="stringdeclaration.jpg" alt="String declaration"/><hr/>
+        <h3><u style="color:red;">NOTE</u></h3>
+        <ul>
+            <li>In c string is NULL terminated.</li>
+            <li>In c every string ends with NULL.</li>
+            <li>NULL is a character which ASCII is 0. NULL escape sequence is \0 (\zero).</li>
+        </ul>
+        <h2><u>Initialization of string variable</u></h2>
+        <p><b>char str[100]={'I','N','D','I','A'};</b></p>
+        <h3 style="color:red;">OR</h3>
+        <p><b>char str[100]="INDIA"; </b> -> string variable can also be initilized with string literal.</p>
+        <p><b><u>It will stored in memory as:-</u></b></p>
+        <img src="stringinitialization.jpg" alt="String initialization"/><hr/>
+        <h2><U style="text-align:center;">SOME STRING FUNCTION</U></h2>
+        <p id="p"><b id="a"> strlen</b> -> Finds outs the length of a string.</p>
+        <p id="q"><b id="b"> strlwr</b> -> It converts a string to lowercase.</p>
+        <p id="r"><b id="c"> strupr</b> -> It converts a string to uppercase.</p>
+        <p id="s"><b id="d"> strcat</b> -> It appends one string at the end of another.</p>
+        <p id="t"><b id="e"> strncat</b> -> It appends first n characters of a string at the end of another.</p>
+        <p id="u"><b id="f"> strcpy</b> -> Use it for copying a string into another.</p>
+        <p id="v"><b id="g"> strncpy</b> -> It copy first n characters of two strings.</p>
+        <p id="w"><b id="h"> strcmp</b> -> It compares two strings.</p>
+        <p id="x"><b id="i"> strcmpi</b> -> It compares two strings without regard to case("i" denotes that this function ignores case).</p>
+        <p id="y"><b id="j"> strnicmp</b> -> It compares first n characters of two strings, Its not case sensitive.</p>
+        <p id="z"><b id="k"> strdup</b> -> Used for duplicating a string.</p>
+        <p id="aa"><b id="l"> strchr</b> -> Finds out first occurrence of a given character in a string.</p>
+        <p id="bb"><b id="m"> strstr</b> -> Finds first occurrenceof a given string in another string.</p>
+        <p id="cc"><b id="n"> strnset</b> -> It sets first n character of a string to a given character.</p>
+        <p id="dd"><b id="o"> strrev</b> -> It reverses a string.</p><hr/>
+        <h2 style="text-align:center;">------THANK YOU------</h2><hr/>
+
+
+
+    </body>
+</html>
